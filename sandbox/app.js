@@ -7,3 +7,11 @@ const person = {
     state: "WA",
   },
 };
+
+// const name = person.name;
+// const age = person.age;
+// const address = person.address;
+
+const { name, age, address } = person;
+
+console.log(name, age, address);

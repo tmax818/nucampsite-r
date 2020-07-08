@@ -11,7 +11,6 @@ class App extends Component {
     this.state = { campsites: CAMPSITES };
   }
   render() {
-    //  console.log(CAMPSITES);
     return (
       <div className="App">
         <Navbar dark color="primary">
