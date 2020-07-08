@@ -16,7 +16,6 @@ class Directory extends Component {
   }
 
   render() {
-    //console.log("Directory State:", this.state.selectedCampsite);
     const directory = this.props.campsites.map((campsite) => {
       return (
         <div key={campsite.id} className="col">

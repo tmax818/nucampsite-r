@@ -26,7 +26,7 @@ export class CampsiteInfo extends Component {
             return (
               <div key={comment.id}>
                 <p>
-                  {comment.text} --{" "}
+                  {comment.text} --{comment.author}{" "}
                   {new Intl.DateTimeFormat("en-US", {
                     year: "numeric",
                     month: "short",
