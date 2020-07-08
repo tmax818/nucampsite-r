@@ -22,7 +22,6 @@ export class CampsiteInfo extends Component {
         <div className="col-md-5 m-1">
           <h4>Comments</h4>
           {comments.map((comment) => {
-            console.log(comment);
             return (
               <div key={comment.id}>
                 <p>
